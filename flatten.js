@@ -1,3 +1,7 @@
+/*
+	Function takes array returned by Airtable as data and returns an array as flats
+*/
+
 flatten = data => {
 	let flats = []
 	data.forEach(datum => {
